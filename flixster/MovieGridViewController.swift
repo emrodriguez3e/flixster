@@ -29,6 +29,7 @@ class MovieGridViewController: UIViewController, UICollectionViewDataSource, UIC
         let width = (view.frame.size.width - layout.minimumInteritemSpacing*2)/3
 //        let height = view.frame.size.height
         
+        
         layout.itemSize = CGSize(width: width, height: width * 3/2)
 
         // Do any additional setup after loading the view.
